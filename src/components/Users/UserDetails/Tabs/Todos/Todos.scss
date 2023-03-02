@@ -1,0 +1,50 @@
+@import './src/styles/variables';
+.usertodolist {
+  &-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+    text-transform: capitalize;
+  }
+
+  &-todos__list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    &-item {
+      @include header-h2;
+      color: $base-dark-blue;
+      margin: 20px auto;
+      background: none;
+      border: none;
+      text-transform: capitalize;
+      cursor: pointer;
+      list-style-type: none;
+    }
+    &-checkbox {
+      width: 25px;
+      height: 25px;
+    }
+    &-text {
+      @include header-h2;
+      color: $base-dark-blue;
+      margin: 20px 15px;
+      background: none;
+      border: none;
+      text-transform: capitalize;
+      cursor: pointer;
+    }
+  }
+}
+input:focus {
+  outline: none;
+}
+
+.no-data-message {
+  @include header-h1-semi-bold;
+  color: $base-dark-blue;
+  text-align: center;
+}

@@ -1,0 +1,60 @@
+{
+  "menu": {
+    "home": "Home",
+    "posts": "Posts",
+    "todo": "Todo",
+    "users": "Users"
+  },
+  "title1": "I made this App using: ",
+  "title2": "React,React-router,React-i18next for translations,",
+  "title3": "Classnames,Redux,Axios,",
+  "title4": "TypeScript and SASS",
+  "description": {
+    "part1": "This page is in english,if you whant change lenguage press a button in lenguage menu"
+  },
+  "posts": {
+    "head": "Last Posts",
+    "tittle1": "tittle1",
+    "body1": "body1",
+    "error-msg": "No any posts to display."
+  },
+
+  "newposts": {
+    "error-msg": "This field is required",
+    "title": "Title",
+    "description": "Description",
+    "edit": "EDIT",
+    "delete": "DELETE"
+  },
+  "user-tabs": {
+    "albums": "Albums",
+    "posts": "Posts",
+    "todos": "Todos"
+  },
+  "todo": {
+    "add": "ADD",
+    "error-msg": "No any Todos to display."
+  },
+  "albums": {
+    "error-msg": "No any Albums to display."
+  },
+  "user": {
+    "email": "Email",
+    "movil": "Movil",
+    "work": "Work",
+    "social": "Social",
+    "segment": "Segment",
+    "back_btn": "BACK",
+    "contact_btn": "CONTACT"
+  },
+
+  "users": {
+    "name": "Name",
+    "user_name": "User Name",
+    "error-msg": "No any Users to display."
+  },
+  "404": {
+    "erorr-number": "404",
+    "error-msg": "Sorry this page not found !!"
+  }
+}

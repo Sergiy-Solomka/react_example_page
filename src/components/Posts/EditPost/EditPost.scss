@@ -1,0 +1,45 @@
+@import './src/styles/variables';
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+  padding-top: 30px;
+
+  &-title-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  &-title {
+    width: 400px;
+    height: 30px;
+  }
+  &-error {
+    color: $base-error-color;
+  }
+  &-description-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  &-description {
+    width: 400px;
+    height: 150px;
+  }
+  &-buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  &-button {
+    background-color: $base-dark-blue;
+    color: $base-background;
+    width: 90px;
+    height: 30px;
+    border: solid $base-dark-blue 3px;
+    border-radius: 5px;
+    margin: auto 25px;
+  }
+}

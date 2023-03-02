@@ -1,0 +1,34 @@
+@import './src/styles/variables';
+
+.home {
+  &-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  &-header {
+    text-align: center;
+    margin: 15px auto;
+    color: $base-dark-blue;
+  }
+  &-tittle {
+    @include header-h1-semi-bold;
+  }
+  &-main {
+    width: 80%;
+    margin: 10px auto;
+  }
+  &-description {
+    @include header-h3;
+    text-align: center;
+    color: $base-dark-blue;
+  }
+}
+
+.no-data-message {
+  @include header-h1-semi-bold;
+  color: $base-dark-blue;
+  text-align: center;
+}

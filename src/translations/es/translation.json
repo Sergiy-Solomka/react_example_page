@@ -1,0 +1,59 @@
+{
+  "menu": {
+    "home": "Inicio",
+    "posts": "Los Posts",
+    "todo": "Por hacer",
+    "users": "Usuarios"
+  },
+  "title1": "He creado esta App con : ",
+  "title2": "React,React-router,React-i18next para traduciones,",
+  "title3": "Classnames,Redux,Axios,",
+  "title4": "TypeScript y SASS",
+  "description": {
+    "part1": "Es la pagina en Español , si queres cambiar de idoma, presiona boton correspondiente en el menu."
+  },
+  "newposts": {
+    "error-msg": "Este campo es obligatorio",
+    "title": "Titulo",
+    "description": "Descripcion",
+    "edit": "EDITAR",
+    "delete": "BORRAR"
+  },
+
+  "posts": {
+    "head": "Ultimos Posts",
+    "tittle1": "tittle1",
+    "body1": "body1",
+    "error-msg": "No hay posts por mostrar."
+  },
+  "user-tabs": {
+    "albums": "Álbumes",
+    "posts": "Los Posts",
+    "todos": "Por Hacer"
+  },
+  "todo": {
+    "add": "ADJ",
+    "error-msg": "No hay Por hacer por mostrar."
+  },
+  "albums": {
+    "error-msg": "No hay Album por mostrar."
+  },
+  "user": {
+    "email": "Correo",
+    "movil": "Movil",
+    "work": "Trabajo",
+    "social": "Social",
+    "segment": "Segmento",
+    "back_btn": "ATRAS",
+    "contact_btn": "CONTACTAR"
+  },
+  "users": {
+    "name": "Nombre",
+    "user_name": "Nombre de Usuario",
+    "error-msg": "No hay Usuarios por mostrar."
+  },
+  "404": {
+    "erorr-number": "404",
+    "error-msg": "Lo sentimos pagina no existe !!"
+  }
+}

@@ -1,0 +1,39 @@
+@import './src/styles/variables';
+.users-table {
+  width: 50%;
+  background: $base-dark-blue;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 60px auto;
+
+  &-head-row__element {
+    border-bottom: 1px solid $base-light-blue;
+    color: $base-yellow;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    text-align: left;
+  }
+  &-body-row__data {
+    color: $text-white;
+    padding: 0.65em 1em;
+    &-btn {
+      all: unset;
+    }
+  }
+  &-body-row {
+    cursor: pointer;
+  }
+  &-body tr {
+    transition: background 0.25s ease;
+  }
+  &-body tr:hover {
+    background: $base-light-blue;
+  }
+}
+
+.no-data-message-users {
+  @include header-h1-semi-bold;
+  color: white;
+  text-align: center;
+}

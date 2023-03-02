@@ -1,0 +1,43 @@
+@import './src/styles/variables';
+
+.posts {
+  &-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  &-header {
+    text-align: center;
+  }
+  &-tittle {
+    @include header-h1-semi-bold;
+    color: $base-dark-blue;
+  }
+  &-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 250px;
+  }
+  &-body {
+    justify-content: center;
+    margin: 20px auto;
+  }
+  &-body__title {
+    @include header-h3-semi-bold;
+    text-align: center;
+    margin: 25px auto;
+    color: $base-dark-blue;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+  &-body__description {
+    @include text-h2;
+    text-align: justify;
+    color: $base-dark-blue;
+  }
+}
